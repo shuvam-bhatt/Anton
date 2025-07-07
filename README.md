@@ -50,9 +50,9 @@ python app.py
 ## Project Structure
 
 ```
-PRJ2/
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
+Anton/
+├── app.py                # Main application file
+├── requirements.txt      # Python dependencies
 ├── venv/                 # Virtual environment
 ├── Anton_Files/          # User-created files directory
 ├── anton_icons/          # UI icons
@@ -60,7 +60,7 @@ PRJ2/
 ├── .env                  # Environment variables (create this)
 ├── run_anton.bat         # Windows batch script
 ├── run_anton.ps1         # PowerShell script
-└── README.md            # This file
+└── README.md             # This file
 ```
 
 ## API Keys Setup
@@ -92,11 +92,3 @@ To use all features, you'll need:
 - pyttsx3 - Text-to-speech
 - SpeechRecognition - Speech processing
 - python-dotenv - Environment variables
-
-## Development
-
-This project was cleaned up and optimized:
-- Removed unnecessary conda environment (saving hundreds of MB)
-- Switched to pip and virtual environment
-- Updated dependencies to match actual requirements
-- Created easy-to-use run scripts
